@@ -497,8 +497,9 @@ replace github.com/stretchr/testify => github.com/stretchr/testify v1.8.4
 
 // Uncomment for local development for testing with changes in the components-contrib && kit repositories.
 // Don't commit with this uncommented!
-//
-// replace github.com/dapr/components-contrib => ../components-contrib
+
+replace github.com/dapr/components-contrib => github.com/frundh/dapr-components-contrib v0.0.0-20241030044859-540593906f3b
+
 // replace github.com/dapr/kit => ../kit
 //
 // Then, run `make modtidy-all` in this repository.
